@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PCBA Designs | Westmoreland Engineering</title>
+  
+  <meta name="description" content="PCBA designs and prototypes by John C. Westmoreland"/>
+  
+  <style>
+    :root {
+      --bg: #f8f9fc;
+      --text: #1e293b;
+      --accent: #3b82f6;
+      --accent-dark: #2563eb;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --text: #e2e8f0;
+        --accent: #60a5fa;
+        --accent-dark: #3b82f6;
+        --surface: #1e293b;
+        --border: #334155;
+      }
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100dvh;
+    }
+    header {
+      background: linear-gradient(to right, var(--accent), var(--accent-dark));
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem 4rem;
+    }
+    header h1 { font-size: 3.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.4rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+    main {
+      max-width: 1000px;
+      margin: -3rem auto 0;
+      padding: 0 1.5rem;
+    }
+    section {
+      background: var(--surface);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1);
+      border: 1px solid var(--border);
+    }
+    h2 { font-size: 2.2rem; margin-bottom: 1.2rem; color: var(--accent); }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover { transform: scale(1.03); }
+    .pdf-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .pdf-list li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    .pdf-list a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .pdf-list a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      opacity: 0.7;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PCBA Designs</h1>
+    <p>Selected Printed Circuit Board Assemblies by Westmoreland Engineering</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Recent Designs</h2>
+      <div class="gallery">
+        <!-- Replace these with your own image URLs -->
+        <div>
+          <img src="https://via.placeholder.com/800x600/3b82f6/ffffff?text=PCBA+Design+1" alt="PCBA Design 1">
+          <p style="margin-top:8px; text-align:center;">Multi-domain power board (2025)</p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/800x600/3b82f6/ffffff?text=PCBA+Design+2" alt="PCBA Design 2">
+          <p style="margin-top:8px; text-align:center;">Robotic control network (2024)</p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/800x600/3b82f6/ffffff?text=PCBA+Design+3" alt="PCBA Design 3">
+          <p style="margin-top:8px; text-align:center;">Wearable health device (2023)</p>
+        </div>
+        <!-- Add more <div> blocks as needed -->
+      </div>
+    </section>
+
+    <section>
+      <h2>Downloadable PDFs & Schematics</h2>
+      <ul class="pdf-list">
+        <!-- Replace with your real PDF links (upload PDFs to your repo) -->
+        <li><a href="your-pdf-file-1.pdf" target="_blank">Power Board Schematic – April 2025 (PDF)</a></li>
+        <li><a href="your-pdf-file-2.pdf" target="_blank">Robotic Control PCBA – March 2025 (PDF)</a></li>
+        <li><a href="your-pdf-file-3.pdf" target="_blank">Wearable Device Layout – October 2023 (PDF)</a></li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <p>Interested in a similar design for your project?</p>
+      <a href="mailto:john@westmorelandengineering.com" class="btn">Email → john@westmorelandengineering.com</a>
+      <a href="https://www.linkedin.com/in/jcwestmoreland" class="btn" target="_blank" rel="noopener">LinkedIn</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Westmoreland Engineering • Built with clarity & precision
+  </footer>
+
+  <center>
+    <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!">
+      <img src="https://www.hamqsl.com/solar101vhfpic.php">
+    </a>
+  </center>
+
+</body>
+</html>
